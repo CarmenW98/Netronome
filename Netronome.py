@@ -6,7 +6,7 @@
 import numpy as np;
 
 #recieve user input 
-num = int(input("Please enter a number:  \n"));
+num = int(input("\nPlease enter a number:  \n"));
 
 while num<0:
     print("Factorial of a negative number does not exist");
@@ -14,8 +14,8 @@ while num<0:
     
 num=np.math.factorial(num);	#find factorial
 num=[*map(int,str(num))]; 	#place digits of factorial into an array of numbers
-print(np.sum(num));		#print result
-
+print("\nAnswer:", np.sum(num));		#print result
+print("END OF PROGRAM\n");
 
 
 
